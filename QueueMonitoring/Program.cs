@@ -51,7 +51,6 @@ namespace QueueMonitoring
 
             File.WriteAllText(filePath, JsonConvert.SerializeObject(dict));
             Console.WriteLine("New Dictionary written to file");
-            Console.ReadLine();
         }
 
         public static int GetCount(string path)
